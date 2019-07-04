@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/detailForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Photo Name"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/ic_person_black_24dp" />
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <TextView
+                    android:textColor="#6200EE"
+                    android:textSize="20sp"
+                    android:text="@string/request_student_to_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/studentNameMyanmar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/student_name_my"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/student_name_en"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/student_name_en"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/father_name_my"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/father_name_my"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/father_name_en"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/father_name_en"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/mother_name_my"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/mother_name_my"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/mother_name_en"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/mother_name_en"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+
+                <TextView
+                    android:textColor="#6200EE"
+                    android:textSize="20sp"
+                    android:text="@string/race_religion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/race_religion_student"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/race_religion_student"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/race_religion_father"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/race_religion_father"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/race_religion_mother"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/race_religion_mother"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+
+
+
+
+
+                <TextView
+                    android:textColor="#6200EE"
+                    android:textSize="20sp"
+                    android:text="@string/birth_place"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+
+
+
+                <EditText
+                    android:id="@+id/birth_place_student"
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/birth_place_student"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/birth_place_father"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/birth_place_mother"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+
+                <TextView
+                    android:textColor="#6200EE"
+                    android:textSize="20sp"
+                    android:text="@string/nrc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/nrc_student"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/nrc_student"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/nrc_father"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/nrc_father"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/nrc_mother"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/nrc_mother"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <TextView
+                    android:textColor="#6200EE"
+                    android:textSize="20sp"
+                    android:text="@string/date_of_birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:id="@+id/date_of_birth_student"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/date_of_birth_student"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <TextView
+                    android:textColor="#6200EE"
+                    android:textSize="20sp"
+                    android:text="@string/matriculation_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:id="@+id/matriculation_pass_rollno"
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/matriculation_pass_rollno"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:id="@+id/matriculation_pass_year"
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/matriculation_pass_year"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:id="@+id/matriculation_pass_exam_department"
+                    android:textColor="#6200EE"
+                    android:textColorHint="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/matriculation_pass_exam_department"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="Enter Lasted Relationship with Distance University Year"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="Enter Lasted Relationship with Distance University Course Year"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="Enter Lasted Relationship with Distance University specialize Subject"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="Enter Lasted Relationship with Distance University Roll Number"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="Enter Lasted Relationship with Distance University City"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="Enter Your Address"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="Enter Attended Course Year"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="Enter Your Attended Specialize Subject"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Enter Past Examinations "
+                    android:textAllCaps="false" />
+
+                <LinearLayout
+                    android:weightSum="15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/checkFirst"
+                        android:layout_weight="7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="First Year" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioFirst"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="8"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:layout_weight="4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pass" />
+
+                        <RadioButton
+                            android:layout_weight="4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fail" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:weightSum="15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/checkTwo"
+                        android:layout_weight="7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Second Year" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioTwo"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="8"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:layout_weight="4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pass" />
+
+                        <RadioButton
+                            android:layout_weight="4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fail" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:weightSum="15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/checkThree"
+                        android:layout_weight="7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Third Year" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioThree"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="8"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:layout_weight="4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pass" />
+
+                        <RadioButton
+                            android:layout_weight="4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fail" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:weightSum="15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/checkFour"
+                        android:layout_weight="7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Fourth Year" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioFour"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="8"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:layout_weight="4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pass" />
+
+                        <RadioButton
+                            android:layout_weight="4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fail" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/formOneNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

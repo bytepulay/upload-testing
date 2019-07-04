@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/detailFormTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="#6200EE"
+                    android:id="@+id/studentNameMya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/father_job"
+                    />
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:id="@+id/father_job_position"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/father_job_position"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:id="@+id/father_job_department_or_job"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/father_job_department_or_job"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:id="@+id/father_job_address"
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/father_job_address"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="#6200EE"
+                    android:id="@+id/mother_job"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/mother_job" />
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:id="@+id/mother_job_position"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/mother_job_position"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:id="@+id/mother_job_department_or_job"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/mother_job_department_or_job"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/mother_job_address"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="#6200EE"
+                    android:id="@+id/request_continue_for_attend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/request_continue_for_attend" />
+
+
+
+                <EditText
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/request_continue_for_attend1"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:id="@+id/request_continue_for_attend2"
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/request_continue_for_attend2"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:id="@+id/request_continue_for_attend3"
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/request_continue_for_attend3"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <EditText
+                    android:id="@+id/request_continue_for_attend4"
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/request_continue_for_attend4"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:id="@+id/request_continue_for_attend5"
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/request_continue_for_attend5"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="#6200EE"
+                    android:id="@+id/support_people_for_attend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/support_people_for_attend" />
+
+                <EditText
+                    android:id="@+id/support_people_name"
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/support_people_name"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:id="@+id/support_people_relation"
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/support_people_relation"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:id="@+id/support_people_job"
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/support_people_job"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:id="@+id/support_people_adderss"
+                    android:textColor="#6200EE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:hint="@string/support_people_adderss"
+                    android:padding="8dp"
+                    android:textAllCaps="false" />
+
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#6200EE"
+                    android:text="@string/self_promise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <LinearLayout
+                    android:weightSum="10"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                <EditText
+                    android:layout_weight="3"
+                    android:background="@drawable/custom_edittext_form_background"
+                    android:id="@+id/txtDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="20dp"
+                    android:hint="20/6/2019"
+                    android:padding="8dp"
+                    android:inputType="textPersonName"
+                    android:enabled="false"
+                    />
+
+                <ImageView
+                    android:layout_weight="7"
+                    android:id="@+id/imageViewCalendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_date_range_black_24dp"
+                   />
+                </LinearLayout>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/formOneNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.FormFragment">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="#6200EE"
+        android:id="@+id/title"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:text="Registration Form"/>
+
+        <include layout="@layout/form_one"/>
+
+        <include layout="@layout/from_two"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:id="@+id/formTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_margin="10dp"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="This is second form"/>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/uploadBn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert"/>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Distance Student</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+            <!--Form One-->
+    <string name="request_student_to_continue">ပညာဆက္လက္သင္ခြင့္ေတာင္းခံသူ</string>
+    <string name="student_name_my">ေက်ာင္းသား/သူ နာမည္(ျမန္မာလို)</string>
+    <string name="student_name_en">ေက်ာင္းသား/သူ(အဂၤလိပ္လို)</string>
+
+    <string name="father_name_my">အဘနာမည္(ျမန္မာလို)</string>
+    <string name="father_name_en">အဘနာမည္(အဂၤလိပ္လို)</string>
+
+
+    <string name="mother_name_my">အမိနာမည္(ျမန္မာလို)</string>
+    <string name="mother_name_en">အမိနာမည္(အဂၤလိပ္လို)</string>
+
+    <string name="race_religion">လူမ်ိဳး/ကိုးကြယ္သည့္ဘာသာ</string>
+
+    <string name="race_religion_student">ေက်ာင္းသား/သူ</string>
+    <string name="race_religion_father">အဘ</string>
+    <string name="race_religion_mother">အမိ</string>
+
+
+
+ <string name="birth_place">ေမြးဖြာရာဇာတိ/ ျမိဳ့နယ္/ျပည္နယ္/တိုင္း</string>
+    <string name="birth_place_student">ေက်ာင္းသား/သူ</string>
+    <string name="birth_place_father">အဘ</string>
+    <string name="birth_place_mother">အမိ</string>
+
+
+    <string name="nrc">တိုင္းရင္းသား/နိုင္ငံသားမွတ္ပံုတင္အမွတ္</string>
+    <string name="nrc_student">ေက်ာင္းသား/သူ</string>
+    <string name="nrc_father">အဘ</string>
+    <string name="nrc_mother">အမိ</string>
+
+    <string name="date_of_birth">ေမြးသကၠရာဇ္</string>
+    <string name="date_of_birth_student">ေက်ာင္းသား/သူ</string>
+
+
+    <string name="matriculation_pass">တကၠသိုလ္၀င္/အေျခခံပညာအထက္တန္းေက်ာင္း စာေမးပြဲေအာင္ျမင့္သည့္</string>
+
+    <string name="matriculation_pass_rollno">ခံုအမွတ္</string>
+
+    <string name="matriculation_pass_year">ခုနွစ္</string>
+    <string name="matriculation_pass_exam_department">စာစစ္ဌာန</string>
+
+
+
+
+
+    <!--Form Two-->
+    <string name="father_job">အဘ/အုပ္ထိန္းသူဧ။္ အလုပ္အကိုင္</string>
+    <string name="father_job_position">ရာထူး</string>
+    <string name="father_job_department_or_job">ဌာန/လုပ္ငန္း</string>
+    <string name="father_job_address">လိပ္စာအျပည့္အစုံ</string>
+
+    <string name="mother_job">အမိ/အုပ္ထိန္းသူဧ။္ အလုပ္အကိုင္</string>
+    <string name="mother_job_position">ရာထူး</string>
+    <string name="mother_job_department_or_job">ဌာန/လုပ္ငန္း</string>
+    <string name="mother_job_address">လိပ္စာအျပည့္အစုံ</string>
+
+    <string name="request_continue_for_attend">ပညာဆက္လက္သင္ခြင့္ေတာင္းခံသူ</string>
+
+
+    <string name="request_continue_for_attend1">အလုပ္အကိုင္</string>
+    <string name="request_continue_for_attend2">ရာထူး</string>
+    <string name="request_continue_for_attend3">ဌာန/ဌာနခြဲ</string>
+    <string name="request_continue_for_attend4">ျမိဳ့နယ္</string>
+    <string name="request_continue_for_attend5">ျပည္နယ္/တိုင္း</string>
+
+    <string name="support_people_for_attend">ေက်ာင္းေနရန္ အေထာက္အပံျပုမည့္ပုဂၢိဳလ္</string>
+
+    <string name="support_people_name">အမည္</string>
+    <string name="support_people_relation">မည္သို့ေတာ္စပ္ပုံ</string>
+    <string name="support_people_job">အလုပ္အကိုင္</string>
+    <string name="support_people_adderss">ဆက္သြယ္ရန္လိပ္စာ</string>
+
+
+    <string name="self_promise">
+        မွတ္ခ်က္။ ။ အခ်က္အလက္မ်ား မွားယြင္းမႈမရွိေစရန္ မွန္ကန္ေအာင္ ျဖည့္ေပးပါ။\n\n
+
+                    ကိုယ္တိုင္၀န္ခံခ်က္\n\n
+
+        ၁။အထက္ေဖာ္ျပပါ အခ်က္အားလုံး မွန္ကန္ပါသည္။\n\n
+
+        ၂။ဤသို့ ၀င္ခြင့္ေလ်ာက္ထားသည္ ကို မိဘ(သို့မဟုတ္) အုပ္ထိန္းသူမ်ားက သေဘာသူျပီးျဖစ္ပါသည္။\n\n
+
+        ၃။ေက်ာင္းလခမ်ား မွန္မွန္ေပးရန္ မိဘ(သို့မဟုတ္) အုပ္ထိန္းသူမ်ားက သေဘာသူျပီးျဖစ္ပါသည္။\n\n
+
+        ၄။ေက်ာင္းသား ေက်ာင္းသူ ေကာင္းတစ္ေယာက္ပီသစြာ တကၠသိုလ္/ေကာလိပ္က ခ်မွတ္မည့္ စည္းမ်ည္းစည္းကမ္းမ်ားနွင့္အညီ လိုက္နာက်င့္သုံေနထိုင္ပါမည္။\n\n
+
+        ၅။ကြၽန္ေတာ္/ကြၽန္မသည္ မည္သည့္နိုင္ငံေရးပါတီတြင္မွ် ပါတီ၀င္မဟုတ္ပါ။\n\n
+
+
+
+
+    </string>
+
+
+</resources>

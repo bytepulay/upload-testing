@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880e4f"
+    tools:context=".Activities.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/linearLayout"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:background="@drawable/custom_edittext_background"
+            android:drawableLeft="@drawable/icon_user"
+            android:inputType="textCapSentences"
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter user name"/>
+
+
+        <EditText
+            android:background="@drawable/custom_edittext_background"
+            android:drawableLeft="@drawable/icon_password"
+            android:inputType="textPassword"
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Password"
+            android:layout_marginTop="15dp"/>
+
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnLogin"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bc477b"
+            android:text="Login"/>
+
+    </LinearLayout>
+</RelativeLayout>
